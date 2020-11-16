@@ -13,6 +13,19 @@ echo $root;
 
 	echo json_encode($lista);
 
+
+	//Delete
+	/*
+$usuario = new Usuario();
+
+$usuario->loadbyId(7);
+
+$usuario->delete();
+
+echo $usuario;
+*/
+
+
 /*Carrega o search
 	$search = Usuario::search('joao');
 
