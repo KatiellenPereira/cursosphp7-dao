@@ -9,23 +9,38 @@ $root->loadbyId(3);
 echo $root;
 */
 //Carrega uma lista de usuario
-/*	$lista = Usuario::getList();
+	$lista = Usuario::getList();
 
 	echo json_encode($lista);
-*/
+
 /*Carrega o search
 	$search = Usuario::search('joao');
 
 	echo json_encode($search);
 */
 	//carrega validalogin
-$login = new Usuario();
+/*$login = new Usuario();
 
 $login->login("joao","query");
 
 echo $login;
+*/
+//procedure insert
+/*
+$aluno = new Usuario("joao", "senha");
 
+$aluno->insert();
 
+echo $aluno;
+//update
+$usuario = new Usuario();
+
+$usuario->loadbyId(7);
+
+$usuario->update("professor","#$@$@");
+
+echo $usuario;
+*/
 /*
 $sql = new Sql();
 
